@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mato</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body id="body">
+  <div class="header">
+    <h2 class="logo">MATO</h2>
+    <nav class="headernames">
+      <a href="index.html" class="headerlinks">INÍCIO</a>
+      <a href="materias.html" class="headerlinks">MATÉRIAS</a>
+      <a href="corporacao.html" class="headerlinks">CORPORAÇÃO</a>
+      <a href="ajuda.html" class="headerlinks">AJUDA</a>
+    </nav>
+  </div>
+  <div class="main">
+    <h2>Bem Vindos a seção de Robótica!</h2>
+    <p class="textorob">Aqui apresentamos a conclusão do projeto que
+      empreendemos no primeiro trimestre de 2023 em relação a
+      disciplina de Robótica.</p>
+    <div class="center">
+      <p class="ttext">Abaixo está o código que fizemos upload para
+        o sistema.
+      </p>
+      <img class="imagem_trabalho" src="codigo.jpg" alt="imagem do código que fizemos">
+      <p class="ttext">Abaixo está o código que fizemos upload para
+        o sistema e o protótipo do projeto.
+      </p>
+      <img class="imagem_trabalho" src="codigo_e_prototipo.jpg"
+        alt="imagem do código que fizemos e o protótipo que elaboramos">
+      <p class="ttext">Abaixo está o vídeo onde consta o rosto dos participantes do grupo e a conclusão
+        do projeto.
+      </p>
+      <video controls class="video_trabalho">
+        <source src="video_trabalho.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="footer_c">MATO</div>
+</body>
+
+</html>

@@ -41,22 +41,7 @@ body {
     margin-bottom: 10px;
   }
   
-  .aluno {
-    margin-bottom: 20px;
-  }
-  
-  .aluno img {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
-  }
-  
-  .aluno h3 {
-    text-align: center;
-  }
-  
   /* Estilos do rodapé */
   footer {
     text-align: center;
   }
-  

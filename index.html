@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Grupo5</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalhos Escolares</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Trabalhos Escolares</h1>
+  </header>
 
-    <header>
-        <h1 class="titulo">Colégio Estadual do Paraná-2k.</h1>
-        </header>
-        <h4>Juliano,Aysla,Maria e Libia.</h4>
-     <img src="logonova.png"/>
-        <h2>Sobre o site</h2>
-<p><br> Este site tem o objetivo de reunir os trabalhos realizados ao longo do ano pelos estudantes do Colégio Estadual Do Paraná em quatro disciplinas do
-    do Novo Ensino Médio, sendo elas: Matematica I, Matematica II,Biotecnologia e Fisica I.
-    No menu acima, pode-se encontrar a página feita para cada disciplina. <br></p>
-    <button onclick="doSomething()" style="background-color: #008B8B;color: #FFFFFF;border-radius: 5px">Alunos</button>
-    <p id="test">Estudantes</p>
-    <script>
-        function doSomething(){
-            document.getElementById("test").innerHTML=
-        }
-    </script>
-    </body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Trabalhos</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Trabalhos Recentes</h2>
+      <ul id="trabalhos-recentes">
+        <li>
+          <h3>Título do Trabalho 1</h3>
+          <p>Descrição do Trabalho 1.</p>
+        </li>
+        <li>
+          <h3>Título do Trabalho 2</h3>
+          <p>Descrição do Trabalho 2.</p>
+        </li>
+        <li>
+          <h3>Título do Trabalho 3</h3>
+          <p>Descrição do Trabalho 3.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Nome da Escola. Todos os direitos reservados.</p>
+  </footer>
+</body>
 </html>

@@ -1,16 +1,47 @@
-header {
-    background-color: #0C3D25;
-    color: #FFFFFF;
-}
-
-.titulo {
-    color: #FFFFFF;font-size:60px;
-}
-
+/* Estilos gerais */
 body {
-    background-color: #62BD69
-}
-
-POP {
-    color: #FFFFFF
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    margin: 20px;
+  }
+  
+  /* Estilos do cabeçalho */
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Estilos da navegação */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+  }
+  
+  /* Estilos do conteúdo principal */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    text-align: center;
+  }
